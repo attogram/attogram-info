@@ -1,0 +1,31 @@
+{
+  "name": "attogram/attogram-info",
+  "description": "Info Module for the Attogram Framework",
+  "type": "project",
+  "homepage": "https://github.com/attogram/attogram-info",
+  "license": "(MIT or GPL-3.0+)",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.3 || ^7.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "5.4.*"
+  },
+  "authors": [
+    {
+      "name": "Attogram Developers",
+      "homepage": "https://www.patreon.com/attogram"
+    }
+  ],
+  "suggest": {
+    "attogram/attogram-framework": "The Attogram Framework",
+    "attogram/attogram-database": "Database Module for the Attogram Framework",
+    "attogram/attogram-user": "User Module for the Attogram Framework",
+    "attogram/attogram-contactform": "Contact Form Module for the Attogram Framework"
+  },
+  "keywords": [
+    "attogram",
+    "attogram framework",
+    "attogram module"
+  ]
+}

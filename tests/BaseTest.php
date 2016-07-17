@@ -1,7 +1,5 @@
 <?php
-// Attogram Framework - Info Module - Base Test v0.1.0
-
-namespace Attogram;
+// Attogram Framework - Info Module - Base Test v0.1.1
 
 use PHPUnit\Framework\TestCase;
 

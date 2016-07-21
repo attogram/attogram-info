@@ -39,7 +39,6 @@
 
 ## [v0.0.0] - 2016-07-07
 
-
 [Unreleased]: https://github.com/attogram/attogram-info/compare/v0.0.6...HEAD
 [v0.0.6]: https://github.com/attogram/attogram-info/compare/v0.05...v0.06
 [v0.0.5]: https://github.com/attogram/attogram-info/tree/9c0892d

@@ -1,4 +1,4 @@
-# Attogram Framework Info Module v0.0.5
+# Attogram Framework Info Module v0.0.6
 
 [![Build Status](https://travis-ci.org/attogram/attogram-info.svg?branch=master)](https://travis-ci.org/attogram/attogram-info)
 [![Latest Stable Version](https://poser.pugx.org/attogram/attogram-info/v/stable)](https://packagist.org/packages/attogram/attogram-info)

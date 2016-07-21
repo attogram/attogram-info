@@ -10,6 +10,8 @@
 ## [v0.0.6] - 2016-07-22
 
 - Renamed to Info Module, new repo: <https://github.com/attogram/attogram-info>
+- new Codacy url: <https://www.codacy.com/app/attogram-project/attogram-info/dashboard>
+- new Codeclimate url: <https://codeclimate.com/github/attogram/attogram-info>
 
 ## [v0.0.5] - 2016-07-17
 
@@ -40,7 +42,7 @@
 
 [Unreleased]: https://github.com/attogram/attogram-info/compare/v0.0.6...HEAD
 [v0.0.6]: https://github.com/attogram/attogram-info/compare/v0.05...v0.06
-[v0.0.5]: https://github.com/attogram/attogram-info/compare/9c0892d...v0.05
+[v0.0.5]: https://github.com/attogram/attogram-info/tree/9c0892d
 [v0.0.4]: https://github.com/attogram/attogram-base/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/attogram/attogram-base/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/attogram/attogram-base/compare/v0.0.1...v0.0.2

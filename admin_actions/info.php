@@ -1,5 +1,5 @@
 <?php
-// Attogram Framework - Info Module - Site Info v0.2.0
+// Attogram Framework - Info Module - Site Info v0.2.1
 
 namespace Attogram;
 
@@ -7,7 +7,7 @@ $title = 'Information';
 $this->pageHeader($title);
 
 $info = array();
-$info['<a name="attogram"></a><h3>🚀 <em>Attogram:</em></h3>'] = '';
+$info['<a id="attogram"></a><h3>🚀 <em>Attogram:</em></h3>'] = '';
 $info['Attogram Version'] = self::ATTOGRAM_VERSION;
 $info['Attogram Directory'] = info_dir($this->attogramDirectory);
 $info['PHP Version'] = phpversion();
@@ -16,7 +16,7 @@ $info['Server Software'] = $this->request->server->get('SERVER_SOFTWARE');
 $info['projectRepository'] = '<a href="'.$this->projectRepository.'">'
   .$this->projectRepository.'</a>';
 
-$info['<a name="site"></a><h3>🏠 <em>Site:</em></h3>'] = '';
+$info['<a id="site"></a><h3>🏠 <em>Site:</em></h3>'] = '';
 $info['siteUrl'] = '<a href="'.$this->getSiteUrl().'">'
   .$this->getSiteUrl().'</a>';
 $info['path'] = ($this->path ? $this->path : '<code>Top Level</code>');
@@ -27,31 +27,31 @@ $sitemapxml = $this->getSiteUrl().'/sitemap.xml';
 $info['sitemap.xml'] = '<a href="'.$sitemapxml.'">'.$sitemapxml.'</a>';
 $info['config'] = info_array($this->config, true);
 
-$info['<a name="actions"></a><h3>▶ <em>Actions:</em></h3>'] = '';
+$info['<a id="actions"></a><h3>▶ <em>Actions:</em></h3>'] = '';
 $info['actions'] = info_actions($this->actions, $this->depth, $this->noEndSlash);
 $info['adminActions'] = info_actions($this->adminActions, $this->depth, $this->noEndSlash);
 
-$info['<a name="directories"></a><h3>📂 <em>Directories:</em></h3>'] = '';
+$info['<a id="directories"></a><h3>📂 <em>Directories:</em></h3>'] = '';
 $info['attogramDirectory'] = info_dir($this->attogramDirectory);
 $info['modulesDirectory'] = info_dir($this->modulesDirectory);
 $info['templatesDirectory'] = info_dir($this->templatesDirectory);
 
-$info['<a name="files"></a><h3>📄 <em>Files:</em></h3>'] = '';
+$info['<a id="files"></a><h3>📄 <em>Files:</em></h3>'] = '';
 $info['templates'] = info_array($this->templates, true);
 $info['skip_files'] = info_array($this->getSkipFiles());
 
-$info['<a name="objects"></a><h3>📎 <em>Objects:</em></h3>'] = '';
+$info['<a id="objects"></a><h3>📎 <em>Objects:</em></h3>'] = '';
 $info['log'] = info_object($this->log);
 $info['event'] = info_object($this->event);
 $info['db'] = info_object($this->database);
 $info['request'] = info_object($this->request);
 
-$info['<a name="database"></a><h3>💾 <em>Database:</em></h3>'] = '';
+$info['<a id="database"></a><h3>💾 <em>Database:</em></h3>'] = '';
 $info['databaseName'] = info_file($this->config['databaseName']);
 $info['database_size'] = (file_exists($this->config['databaseName'])
   ? filesize($this->config['databaseName']) : '<code>null</code>').' bytes';
 
-$info['<a name="user"></a><h3>👤 <em>User:</em></h3>'] = '';
+$info['<a id="user"></a><h3>👤 <em>User:</em></h3>'] = '';
 $info['host'] = $this->host;
 $info['IP'] = $this->clientIp;
 $info['# session attributes'] = sizeof($_SESSION);

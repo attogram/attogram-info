@@ -39,7 +39,7 @@
 
 
 [Unreleased]: https://github.com/attogram/attogram-info/compare/v0.0.6...HEAD
-[v0.0.6]: https://github.com/attogram/attogram-info/compare/9c0892d...v0.05
+[v0.0.6]: https://github.com/attogram/attogram-info/compare/v0.05...v0.06
 [v0.0.5]: https://github.com/attogram/attogram-info/compare/9c0892d...v0.05
 [v0.0.4]: https://github.com/attogram/attogram-base/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/attogram/attogram-base/compare/v0.0.2...v0.0.3
